@@ -1,0 +1,28 @@
+#root > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 5px;
+  border-width: 0.5px;
+  border-color: rgb(86, 86, 86);
+  color: white;
+  border-style: double;
+  border-radius: 15px;
+  background-color: #23272f;
+  margin: 15px;
+  width: 100px;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: 700;
+  &:hover {
+    cursor: pointer;
+    background-color: #149eca;
+  }
+}
+
+.vote-number {
+  color: white;
+  font-weight: 700;
+}
