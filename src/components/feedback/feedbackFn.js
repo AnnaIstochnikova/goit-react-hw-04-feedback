@@ -25,6 +25,10 @@ const Feedback = () => {
         break;
       case 'neutral':
         setNeutral(prev => prev + 1);
+        break;
+      default:
+        setTotalFeedback();
+        break;
     }
   };
 
